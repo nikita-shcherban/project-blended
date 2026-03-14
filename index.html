@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/project-blended/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vyshivanka Vibes</title>
-     <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" crossorigin href="/project-blended/assets/index-D09EsjCS.css">
+    <link rel="stylesheet" crossorigin href="/project-blended/assets/index-qw5-5K74.css">
   </head>
   <body>
     <header class="header">
@@ -102,7 +102,49 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="hero-section" id="hero">
+  <div class="container">
+    <picture>
+      <source
+        media="(min-width:1280px)"
+        srcset="./images/hero/desktop.jpg 1x, ./images/hero/desktop@2x.jpg 2x"
+      />
+      <source
+        media="(min-width:768px)"
+        srcset="./images/hero/tablet.jpg 1x, ./images/hero/tablet@2x.jpg 2x"
+      />
+      <source
+        media="(max-width:767px)"
+        srcset="./img/hero-mob .jpg 1x, /project-blended/assets/hero-mob@2x-ykt6U5tR.jpg 2x"
+      />
+      <img class="hero-img" src="/project-blended/assets/hero-mob-DFxTUErr.jpg" alt="girl" />
+    </picture>
+    <div class="hero-title-star-wrap">
+      <div class="title-wrap">
+        <h1 class="hero-title">
+          Reviving the traditional
+          <span class="accent-text">Ukrainian</span> artistry in every stitch.
+        </h1>
+        <a class="order-btn" href="#order"
+          >Order
+          <svg class="" width="26" height="26">
+            <use href="/project-blended/assets/icons-CkOwVfQ1.svg#icon-arrow"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="star-wrap">
+        <img
+          class="star-img animate__animated animate__rotateIn"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR0SURBVHgB1VrdThtHFD4za4PVq0WBSL2KuWgoUqXGTxDzBAlPEPIEgYtKhFyw3ASkXkCeAOcJgCcoeQKoVAmVVsW9qkQdYalVTAm7p+db7zobe8bJOlky/iTL+zM7s9/M+ZtzVlGBeP3b2jpFvBS+vV68/d2Px1QQNBWEv05WqxxxwERVPVHapgIxEonXp2tP8BvWpuzp9d4JU/38ZHXJ1haEW6dru61fnz6kEaAoJy7OAj+8+u8iebh5FfHC1/NbzWybv09W60qrn/oGauo3ndpUbaedvd76/dkjFUY7smK+NDqcvru5QDmReyUuLy/99BiiUtbqLJb9bKda7fY/h7bXlcpyen52tOzLzO9RGDViAgLF5NMIKFFOyAPV/muQ/dbp03p0db3iTZYfyHnV9KyszpPzX37YV57ngygP9nUzJKwQudfl0pEQGNbKR5tuc1MXo5HILU4ymyMN9JH4fCRgLaxPRFwkCbr449kd03XoEH6mewPWKTFze8nNY1niJitqitK9ElFpQ67l1kim8GMg/Qcyzs/Moi+a7sg73JOxq9AfWLhbc5uz/c8M6ETyot1j6YC6nQDL6fUiASOBf6Wopzj8gWcGxGlmfusQ9pocRBjxhum6USc4ogNyECGZJ9dIojQ52ZC/NjkFbvRHBimMJKZmg7bI5gtyCCIdL233rH6CPb1PjgBWKdZVC4wkYI894kfkCODJEVTa7vdsJhrpkr7PzHWEEOQg5GXbQugwivgASp7qiIr3BRxvXgr1xEUAzlgIrZRk5gMaQwIAnLE4xYc6UmoBikPjCHHK/3Qug1gnEPBNyE7MEN+7i4hfTs9vLeEwtk5QEGwzIWM0BhAftpESAHomFkT0xCT2t874BxNAQHxGkL02EJaen67d08xH5CBsofh7zi52csy75Cigs/1JCaC3Eoly7yV7CKeBjdOtb573wvLxtU5KNabvPn8cH0IHRIT2xopAAlhTScgt6HElAED0w68q22KI+GCcPXZI6qCn2BArFbHkUOmB61GsZEJe/dvpNGaTvK4xfQFFlzTIkliBdXID2Gku2jZG1hyMS04PCixOrma7r4fcGFp/uElAgYft7KwkFHZ4DiHJPBphJIGqjoNmt35hycUaSXhDWH9B+NkiTRYDJKDQrsZPNpEaSChL/cynJHEMJ8jYjDP/qbmbIZcKz3ahJJlfiB/Yl9hIJpOrMt73ktDGxPrKkpU0mliE5LN9BcIULVRBDTW5zwXvTWdqyjB2WpswvVfuXH3RJKbnNnO/U+5yFxcbZ42UxM5PwtPmgSQYi95e19hSQ0iBNpLwemwKOtWIJHJXT8MwautMxQgDS8F0Y2Zucye5dCzl4PumIBIEk288jiU+O/SIAukrm/O9mZWoVCrvBpLZl1RPbebbHoHuy4aDq5FktoP0HNmV25J2ya6K1AZvhkRcu2BawQ+fMJgKH6aSma1UJUQayHlFMK3hcFG0obBKIsL5slaIgv0PRaGfisI+FcIKyWptQGdkphepQPwPFE39sp0+ej4AAAAASUVORK5CYII="
+          alt="star in hero"
+          width="52"
+        />
+        <p class="hero-text">all embroidery is made by hand</p>
+      </div>
+    </div>
+  </div>
+</section>
+
     </main>
 
     <footer class="footer">
