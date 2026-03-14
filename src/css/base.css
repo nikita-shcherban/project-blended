@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: #fcf9f9;
   background-color: #1c2225;
 }
@@ -12,24 +12,28 @@ body {
   padding-bottom: 40px;
   @media screen and (min-width: 768px) {
     padding-top: 50px;
-  padding-bottom: 50px;
+    padding-bottom: 50px;
   }
   @media screen and (min-width: 1280px) {
     padding-top: 75px;
-  padding-bottom: 75px;
+    padding-bottom: 75px;
   }
 }
 
 .title {
-font-weight: 500;
-font-size: 32px;
-line-height: 1.37;
-letter-spacing: -0.03em;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
   margin-bottom: 40px;
   @media screen and (min-width: 768px) {
-   font-size: 44px;
-  line-height: 1.45;
+    font-size: 44px;
+    line-height: 1.45;
   }
+}
+
+.accent-text {
+  color: #ecd979;
 }
 
 .visually-hidden {
